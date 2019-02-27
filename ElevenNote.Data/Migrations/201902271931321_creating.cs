@@ -3,7 +3,7 @@ namespace ElevenNote.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class creating : DbMigration
+    public partial class Creating : DbMigration
     {
         public override void Up()
         {
