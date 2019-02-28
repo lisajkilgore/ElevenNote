@@ -22,6 +22,9 @@ namespace ElevenNote.Data
         [Required]
         public string Content { get; set; }
 
+        [DefaultValue(false)]
+        public bool IsStarred { get; set; }
+
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
 
