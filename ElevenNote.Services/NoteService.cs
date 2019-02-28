@@ -23,7 +23,7 @@ namespace ElevenNote.Services
             var entity =
                 new Note()
                 {
-                    OwnerID = _userId,
+                    OwnerId = _userId,
                     Title = model.Title,
                     Content = model.Content,
                     CreatedUtc = DateTimeOffset.Now
